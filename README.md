@@ -2,6 +2,10 @@
 
 A Go application that converts CSV files to Apple Dictionary XML format.
 
+## Example
+
+![Example conversion from a CSV to Apple Dictionary](example_image.png)
+
 ## Requirements
 
 - Go 1.21 or later
@@ -35,3 +39,4 @@ The program generates an XML file in Apple Dictionary format that can be used wi
 ## Making the dictionary
 
 Make desired changes in the sample project plist file(s) and replace the MyDictionary.xml with your new output.xml. `make` should correctly generate the dictionary object, and `make install` will add it to your user Library. You may need to change the makefile to match your environment.
+
